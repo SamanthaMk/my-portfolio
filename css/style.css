@@ -1,0 +1,24 @@
+/*font-family: 'Playfair Display', serif; font-family: 'Poppins', sans-serif;*/
+
+h1{
+    color: rgb(28, 5, 50);
+    font-family: 'Playfair Display';
+    font-size: 77px;
+    background:rgb(164, 141, 186) ;
+}
+
+p{
+    font-family: 'Poppins';
+    font-size: 25px;
+}
+
+.git-icon{
+    color:blueviolet;
+     font-size: 25px;
+     transition: all 150ms ease-in-out;
+}
+
+.git-icon:hover{
+color: black;
+font-size: 50px ;
+}
