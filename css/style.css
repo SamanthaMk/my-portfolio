@@ -1,14 +1,18 @@
 /*font-family: 'Playfair Display', serif; font-family: 'Poppins', sans-serif;*/
-
+:root{
+  --background:rgb(161, 96, 222);
+  --heading-font:'Playfair Display', serif;
+  --default-font:'Poppins', sans-serif;
+}
 h1{
     color: rgb(28, 5, 50);
-    font-family: 'Playfair Display';
-    font-size: 77px;
-    background:rgb(164, 141, 186) ;
+    font-family: var(--heading-font);
+    font-size: 57px;
+    
 }
 
 p{
-    font-family: 'Poppins';
+    font-family: var(--default-font);
     font-size: 25px;
 }
 
@@ -21,4 +25,28 @@ p{
 .git-icon:hover{
 color: black;
 font-size: 50px ;
+}
+
+.main-page{
+    background:var(--background);
+    text-align: center;
+    padding: 160px 20px;
+}
+
+.main-page, p{
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.main-page h2{
+     font-family: 'Playfair Display'
+}
+
+.btn-purple{
+    background: pink;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 20px;
+    padding:12px 12px;
+    margin: 15px;
 }
