@@ -1,5 +1,17 @@
 /*font-family: 'Playfair Display', serif; font-family: 'Poppins', sans-serif;*/
 :root {
+    --background-color: linear-gradient(
+    68.6deg,
+    rgb(252, 165, 241) 1.8%,
+    rgb(76, 132, 132)100.5%
+  );
+  --font-color: #6f3b8d;
+  --border-color: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  --shadow: 5px 5px 2px 7px;
   --background: rgb(161, 96, 222);
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
@@ -71,13 +83,40 @@ padding: 10px;
   padding: 0 10px;
 }
 
-@media(max-width: 900px) {
-  .project-description{
+@media(max-width: 480px) {
+  body{
+    text-align: center;
+  }
+.project-description{
     padding: 10px;
     font-size: 10px;
     
   }
+  .main-page{
+    background: var(--background-color);
+  }
+  h1{
+    font-size: 35px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  li{
+    font-size: 28px;
+  }
+ p,.paragraph{
+  border: 1px solid;
+  color: #ffffff;
+  background: var(--border-color);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: var(--shadow);
+}
+  }
 img{
   margin-bottom: 40px;
 }
-}
+ .app-paragraph{
+  display: none;
+ }
+ 
