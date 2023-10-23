@@ -116,7 +116,11 @@ padding: 10px;
 img{
   margin-bottom: 40px;
 }
- .app-paragraph{
-  display: none;
- }
- 
+
+li{
+  font-size: 27px;
+}
+
+a{
+  margin: 15px;
+}
