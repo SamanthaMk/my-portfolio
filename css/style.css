@@ -15,6 +15,7 @@
   --background: rgb(161, 96, 222);
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
+  --shadowing: 20px 17px 15px 17px rgba(225, 216, 216, 0.797);
 }
 h1 {
   color: rgb(28, 5, 50);
@@ -28,9 +29,13 @@ li {
   list-style: none;
 }
 
+.git-iconed {
+  color: rgb(28, 25, 31);
+  font-size: 28px;
+}
 .git-icon {
   color: blueviolet;
-  font-size: 25px;
+  font-size: 28px;
   transition: all 150ms ease-in-out;
 }
 
@@ -40,7 +45,7 @@ li {
 }
 
 .main-page {
-  background: var(--background);
+  background: var(--background-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -92,8 +97,11 @@ padding: 10px;
     font-size: 10px;
     
   }
+  span, img{
+    max-width: 28px;
+  }
   .main-page{
-    background: var(--background-color);
+    background: whitesmoke;
   }
   h1{
     font-size: 35px;
@@ -124,3 +132,27 @@ li{
 a{
   margin: 15px;
 }
+
+span img, .profile-pic {
+  border: 2px solid #492a5c;
+  border-radius: 900px;
+  box-shadow: var(--shadowing);
+
+}
+
+a {
+  text-decoration: none;
+  transition: all 120ms ease-in-out;
+  
+}
+.para{
+ border: 1px solid;
+  color: #ffffff;
+  background: var(--border-color);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: var(--shadow);
+}
+
+
+
