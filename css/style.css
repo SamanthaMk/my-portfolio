@@ -318,3 +318,9 @@ color: #291535;
 padding: 10px;
 transition: all 150ms ease-in-out;
 }
+
+#paragraph{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+}
