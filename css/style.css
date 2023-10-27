@@ -97,8 +97,8 @@ padding: 10px;
     font-size: 10px;
     
   }
-  span, img{
-    max-width: 28px;
+  img{
+    max-width: 100px;
   }
   .main-page{
     background: whitesmoke;
@@ -112,13 +112,21 @@ padding: 10px;
   li{
     font-size: 28px;
   }
+  #cv-button{
+    display: block;
+  }
+  .tech-icon{
+    display: none;
+  }
  p,.paragraph{
   border: 1px solid;
-  color: #ffffff;
-  background: var(--border-color);
-  border-radius: 10px;
+  color: #150212;
+  border-radius: 5px;
   padding: 15px;
-  box-shadow: var(--shadow);
+  box-shadow: 5px 2px 3px 2px rgba(225, 216, 216, 0.797);
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: ;
 }
   }
 img{
@@ -133,7 +141,7 @@ a{
   margin: 15px;
 }
 
-span img, .profile-pic {
+span img, #profile-pic {
   border: 2px solid #492a5c;
   border-radius: 900px;
   box-shadow: var(--shadowing);
@@ -154,5 +162,104 @@ a {
   box-shadow: var(--shadow);
 }
 
+#cv-button{
+  border: 1px solid black;
+  color: #e9e3ed;
+  background: #4d2a62;
+  margin: 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 5px;
+
+}
+
+#cv-button:hover{
+background-color: #e9e3ed;
+color: #291535;
 
 
+}
+
+
+#contact-me{
+  border: 1px solid black;
+  color: #f5f4f7;
+  background: #63377b;
+  margin: 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+span img, .tech-icon{
+  border: none;
+  box-shadow: none;
+  border-radius:0px;
+  
+}
+video{
+  margin-top: 90px;
+  margin-left: 40px;
+border-radius: 10px;
+margin-right: 10px;
+border: 2px solid black;
+}
+
+h1, .heading{
+  color: rgb(28, 5, 50);
+  font-family: var(--heading-font);
+  font-size: 50px;
+
+}
+h2, .about-section{
+  font-size: 28px;
+  font-family:'Playfair Display', serif ;
+}
+.about-section{
+  padding: 50px 70px;
+}
+
+a, .about-button{
+  border: 1px solid black;
+  color: #e9e3ed;
+  background: #4d2a62;
+  margin: 0px auto;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 9px;
+  margin-left: 50px;
+}
+
+a, .socials{
+  background: none;
+  border: none;
+}
+p, .about-section{
+  font-size: 15px;
+}
+@media(max-width: 400px){
+  h1, .heading{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  h2, .about-section{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+margin-top: 1px;
+  }
+  p, .about-section{
+    font-size: 22px;
+    font-weight: 200;
+    padding: 20px;
+  }
+  video{
+    max-width: 300px;
+
+  }
+r  a, .about-button{
+    display:block;
+    margin:0;
+    margin-bottom: 70px;
+  }
+}
