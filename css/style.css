@@ -16,7 +16,14 @@
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
   --shadowing: 20px 17px 15px 17px rgba(225, 216, 216, 0.797);
+
+   --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --background-shade: linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
+  --gradient-background:linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
+
 h1 {
   color: rgb(28, 5, 50);
   font-family: var(--heading-font);
@@ -262,4 +269,52 @@ r  a, .about-button{
     margin:0;
     margin-bottom: 70px;
   }
+}
+
+#live-demo{
+  border: 1px solid black;
+  color: #e9e3ed;
+  background: #4d2a62;
+  margin: 0px auto;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+@media(max-width: 480px) {
+  ul, p{
+    display: none;
+  }
+  ul, li{
+    display: grid;
+    font-size: 20px;
+    margin: 10px;
+  }
+ul, #live-demo{
+  font-size: 15px;
+  margin-top: 25px;
+  padding: 10px;
+}
+}
+
+body, .projects{
+  background:rgb(239, 235, 208) 10.4%;
+}
+div p{
+  font-size: 19px;
+}
+
+#live-demo{
+  margin-bottom: 30px;
+  padding: 5px;
+  display: block;
+ text-align: center;
+}
+ #live-demo:hover{
+background-color: #e9e3ed;
+color: #291535;
+padding: 10px;
+transition: all 150ms ease-in-out;
 }
