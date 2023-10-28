@@ -324,3 +324,31 @@ transition: all 150ms ease-in-out;
   font-weight: 400;
   padding: 10px;
 }
+a, #contact-button{
+ border: 1px solid black;
+  color: #e9e3ed;
+  background: #4d2a62;
+font-size: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 2px;
+  margin-left: 10px;
+}
+
+#contact-button:hover{
+background-color: #e9e3ed;
+color: #291535;
+transition:all 150ms ease-in-out;
+font-size: 20px;
+}
+
+#socials{
+border: none;
+color: #150212;
+background: none;
+}
+
+#socials:hover{
+color:green;
+transition: all 150ms ease-in-out;
+}
