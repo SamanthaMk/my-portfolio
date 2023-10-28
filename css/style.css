@@ -352,3 +352,26 @@ background: none;
 color:green;
 transition: all 150ms ease-in-out;
 }
+
+
+#icon-socials{
+border: none;
+color: #150212;
+background: none;
+}
+
+@media (min-width: 0){
+a #socials{
+  display:none;
+}
+}
+@media (min-width:200px){
+
+p{
+  display: block
+}
+}
+
+
+
+
