@@ -366,9 +366,8 @@ a #socials{
 }
 }
 @media (min-width:200px){
-
-p{
-  display: block
+li{
+  text-decoration: none;
 }
 }
 
