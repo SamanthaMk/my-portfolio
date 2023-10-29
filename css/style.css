@@ -54,7 +54,7 @@ li {
 .main-page {
   background: var(--background-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 20px;
 }
 
 .main-page,
@@ -447,9 +447,32 @@ display: inline;
 #project-info{
   display: none;
 }
+#title{
+  font-size: 18px;
+}
 }
 
 video{
   max-width:450px;
   max-height: 450px;
 }
+
+footer, #social-media{
+  text-align: center;
+  background: white;
+}
+ footer, #social-media a{
+  font-size:27px;
+  margin: 18px;
+ }
+  footer, img #social-media{
+    margin: 0px;
+  }
+  footer li {
+    font-size: 17px;
+    list-style: none;
+  }
+  ooter, #sociafl-media:hover{
+    color: green;
+    font-size: 15px;
+  }
