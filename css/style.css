@@ -126,7 +126,7 @@ padding: 10px;
     display: none;
   }
  .paragraph{
-  border: 1px solid;
+  border: 1px solid blueviolet;solid;
   color: #150212;
   border-radius: 5px;
   padding: 15px;
@@ -162,7 +162,7 @@ a {
   
 }
 .para{
- border: 1px solid;
+ border: 1px solid blueviolet;solid;
   color: #ffffff;
   background: var(--border-color);
   border-radius: 10px;
@@ -171,13 +171,13 @@ a {
 }
 
 #cv-button{
-  border: 1px solid black;
+  border: 1px solid blueviolet;solid black;
   color: #e9e3ed;
   background: #4d2a62;
   margin: 40px;
   border-radius: 10px;
   text-decoration: none;
-  letter-spacing: 1px;
+  letter-spacierborder: 1px solid blueviolet;
   padding: 5px;
 
 }
@@ -190,13 +190,13 @@ color: #291535;
 
 
 #contact-me{
-  border: 1px solid black;
+  border: 1px solid blueviolet;solid black;
   color: #f5f4f7;
   background: #63377b;
   margin: 40px;
   border-radius: 10px;
   text-decoration: none;
-  letter-spacing: 1px;
+  letter-spacierborder: 1px solid blueviolet;
 }
 span img, .tech-icon{
   border: none;
@@ -227,7 +227,7 @@ h2, .about-section{
 }
 
 .about-button{
-  border: 1px solid black;
+  border: 1px solid blueviolet;solid black;
   color: #e9e3ed;
   background: #4d2a62;
   margin: 0px auto;
@@ -253,7 +253,7 @@ p, .about-section{
   h2, .about-section{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35px;
-margin-top: 1px;
+margin-terborder: 1px solid blueviolet;
   }
   p, .about-section{
     font-size: 22px;
@@ -272,7 +272,7 @@ margin-top: 1px;
 }
 
 #live-demo{
-  border: 1px solid black;
+  border: 1px solid blueviolet;solid black;
   color: #e9e3ed;
   background: #4d2a62;
   margin: 0px auto;
@@ -326,7 +326,7 @@ transition: all 150ms ease-in-out;
   padding: 10px;
 }
 #contact-button{
- border: 1px solid black;
+ border: 1px solid blueviolet;solid black;
   color: #e9e3ed;
   background: #4d2a62;
 font-size: 15px;
@@ -371,7 +371,7 @@ li{
   text-decoration: none;
 }
 #paragraph{
-  border: 1px solid;
+  border: 1px solid blueviolet;solid;
   color: #150212;
   border-radius: 5px;
   padding: 15px;
@@ -475,4 +475,13 @@ footer, #social-media{
   ooter, #sociafl-media:hover{
     color: green;
     font-size: 15px;
+  }
+
+  #open-source {
+  font-size: 15px;
+  border: 1px solid rgb(23, 4, 42);
+  padding: 7px;
+  color: #1b0c23;
+  background: #a486c0;
+  border-radius:5px;
   }
