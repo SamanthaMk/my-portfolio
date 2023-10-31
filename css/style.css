@@ -317,7 +317,7 @@ div p{
 background-color: #e9e3ed;
 color: #291535;
 padding: 10px;
-transition: all 150ms ease-in-out;
+transition: all 70ms ease-in;
 }
 
 #paragraph{
@@ -339,7 +339,7 @@ font-size: 15px;
 #contact-button:hover{
 background-color: #e9e3ed;
 color: #291535;
-transition:all 150ms ease-in-out;
+transition:all 70ms ease-in-out;
 font-size: 20px;
 }
 
@@ -351,7 +351,7 @@ background: none;
 
 #socials:hover{
 color:green;
-transition: all 150ms ease-in-out;
+transition: all 70ms ease-in;
 }
 
 
@@ -400,7 +400,7 @@ nav, li{
 nav, a { 
   text-decoration: none;
   color: #1b0c23;
-   transition: all 150ms ease-in-out;
+   transition: all 70ms ease-in;
  }
   nav, a:hover{
     text-decoration:none;
@@ -418,7 +418,7 @@ nav, .active a {
   font-size: 19px;
   margin-bottom: 0;
   padding-bottom: 0;
-  transition: all 100ms ease-in-out;
+  transition: all 70ms ease-in;
 }
 .nav-link:hover{
   text-decoration:underline;
